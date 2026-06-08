@@ -24,5 +24,13 @@ jobs:
       - name: Executar testes
         run: npm test
 
-      - name: Plugin Allure Report
-        uses: simple-elf/allure-report-action@master
+      - name: Criar relatório simples
+        run: |
+          mkdir reports
+          echo "<h1>Relatório de Execução</h1><p>Pipeline executada com sucesso</p>" > reports/index.html
+
+      - name: Publicar relatório
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-testes
+          path: reports/
