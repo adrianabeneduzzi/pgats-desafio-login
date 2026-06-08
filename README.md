@@ -81,6 +81,9 @@ Caso o email exista, mas a senha esteja errada.
 - JavaScript
 
 ### Ambiente
+
+![CI](https://github.com/SEU-USUARIO/SEU-REPO/actions/workflows/ci.yml/badge.svg)
+
 - Node.js
 
 ### Framework de Testes
