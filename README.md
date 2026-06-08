@@ -1,4 +1,7 @@
+Markdown
 # 🔐 Desafio de Lógica: Sistema de Login
+
+![CI](https://github.com/adrianabeneduzzi/pgats-desafio-login/actions/workflows/test.yml/badge.svg)
 
 Este projeto consiste num sistema de autenticação modularizado, desenvolvido para validar a lógica de acesso de utilizadores com diferentes estados:
 
@@ -81,9 +84,6 @@ Caso o email exista, mas a senha esteja errada.
 - JavaScript
 
 ### Ambiente
-
-![CI](https://github.com/adrianabeneduzzi/pgats-desafio-login/actions/workflows/test.yml/badge.svg)
-
 - Node.js
 
 ### Framework de Testes
