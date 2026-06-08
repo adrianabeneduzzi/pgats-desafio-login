@@ -1,11 +1,11 @@
-name: TESTE RUNNER LOCAL
+name: FORCE RUNNER LOCAL
 
 on:
   workflow_dispatch:
 
 jobs:
   test:
-    runs-on: self-hosted
+    runs-on: [self-hosted, Windows]
     steps:
-      - name: Teste
-        run: echo "Runner funcionando 🎉"
+      - run: echo "RODANDO NO MEU PC"
+      - run: hostname
