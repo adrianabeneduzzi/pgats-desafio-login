@@ -5,10 +5,10 @@ on:
 
 jobs:
   test:
-    runs-on: [self-hosted, Windows]
+    runs-on: self-hosted
     steps:
       - name: Mostrar máquina
         run: hostname
 
       - name: Teste simples
-        run: echo "Runner local funcionando 🚀💨"
+        run: echo "RUNNER LOCAL FUNCIONANDO 🚀"
