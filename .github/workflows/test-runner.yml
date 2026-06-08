@@ -11,4 +11,4 @@ jobs:
         run: hostname
 
       - name: Teste simples
-        run: echo "Runner local funcionando 🚀"
+        run: echo "Runner local funcionando 🚀💨"
