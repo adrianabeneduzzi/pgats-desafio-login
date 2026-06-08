@@ -82,7 +82,7 @@ Caso o email exista, mas a senha esteja errada.
 
 ### Ambiente
 
-![CI](https://github.com/SEU-USUARIO/SEU-REPO/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/adrianabeneduzzi/pgats-desafio-login/actions/workflows/ci.yml/badge.svg)
 
 - Node.js
 
