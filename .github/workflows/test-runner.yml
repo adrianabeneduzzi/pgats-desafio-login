@@ -1,1 +1,11 @@
-runs-on: self-hosted
+name: TESTE RUNNER LOCAL
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: self-hosted
+    steps:
+      - name: Teste
+        run: echo "Runner funcionando 🎉"
